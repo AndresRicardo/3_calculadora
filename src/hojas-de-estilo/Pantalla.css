@@ -13,4 +13,5 @@
     margin-bottom: 20px;
     box-shadow: -1px 4px 1px 1px white;
     user-select: text;
+    overflow: hidden;
 }
