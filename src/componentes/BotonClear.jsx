@@ -3,9 +3,9 @@ import "../hojas-de-estilo/BotonClear.css";
 
 function BotonClear({ manejarClear }) {
     return (
-        <div className="boton-clear" onClick={() => manejarClear()}>
+        <button className="boton-clear" onClick={() => manejarClear()}>
             Clear
-        </div>
+        </button>
     );
 }
 
